@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2874f0;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.logo:hover{
+    color: #fec405;
+}
+
+.login-btn {
+    background-color: #fff;
+    border: none;
+    padding: 8px 16px;
+    color: #2874f0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.login-btn:hover {
+    background-color: #f6ee06;
+}
+
+
+.logo-img{
+    width: 40px;  /* Adjust the width based on the size of your logo */
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
